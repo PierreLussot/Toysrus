@@ -1,0 +1,150 @@
+/* Le style ici */
+body {
+    margin: 0;
+    background-image: url(./image/background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*header*/
+/*
+nav ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav a, nav span {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li > ul {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    top: 100%;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
+}
+
+*/
+nav {
+    background-color: blue;
+    height: 50px;
+    display: flex;
+}
+
+
+nav li {
+    list-style: none;
+    position: relative;
+}
+
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a, nav span {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    top: 100%;
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.line {
+    border-right: white dashed 1px;
+}
+
+/*PAGE-PRINCIPAL */
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card h2 {
+    color: blue;
+    font-size: 16px;
+}
+
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card li {
+    width: 300px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 26px;
+}
+

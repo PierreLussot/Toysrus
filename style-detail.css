@@ -1,0 +1,32 @@
+.details h2{
+     text-align: center;
+ }
+ .details .containerDetailsGeneral{
+     display: flex;
+     justify-content: center;
+ }
+.details .containeLogPrDes{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.details .detailLogoPrice{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+} 
+.details .descriptionDetails{
+    width: 400px;
+}
+.details .detailLogoPrice img{
+    width: 200px;
+}
+.details .detailsPrice{
+font-size: 40px;
+margin: 10px 0;
+
+}
+.details span{
+    color: blue;
+}
